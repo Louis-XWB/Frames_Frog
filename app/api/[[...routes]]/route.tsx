@@ -20,9 +20,39 @@ const app = new Frog({
 app.frame("/", async (c) => {
   return c.res({
     action: "/finish",
-    image:
-      "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/37e16d62-efa5-4dca-8e6d-dfd7be477c00/rectcontain3",
-    imageAspectRatio: "1:1",
+    image: (
+      <div
+        style={{
+          alignItems: 'center',
+          background:
+            status === 'response'
+              ? 'linear-gradient(to right, #432889, #17101F)'
+              : 'black',
+          backgroundSize: '100% 100%',
+          display: 'flex',
+          flexDirection: 'column',
+          flexWrap: 'nowrap',
+          height: '100%',
+          justifyContent: 'center',
+          textAlign: 'center',
+          width: '100%',
+        }}
+      >
+        <div
+          style={{
+            color: 'white',
+            fontSize: 60,
+            fontStyle: 'normal',
+            letterSpacing: '-0.025em',
+            lineHeight: 1.4,
+            marginTop: 30,
+            padding: '0 120px',
+            whiteSpace: 'pre-wrap',
+          }}
+        >
+        </div>
+      </div>
+    ),
     intents: [
       <Button.Link href="https://docs.linea.build/">Linea Docs</Button.Link>,
       <Button.Link href="https://bridge.linea.build/">Bridge your funds？🚀</Button.Link>
