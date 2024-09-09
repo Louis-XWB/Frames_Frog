@@ -18,7 +18,7 @@ export default function Home() {
     <main className={styles.main}>
       <head>
           <meta property="fc:frame" content="vNext" />
-          <meta property="fc:frame:image" content="${frameImage}" />
+          <meta property="fc:frame:image" content="https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/37e16d62-efa5-4dca-8e6d-dfd7be477c00/rectcontain3" />
           <meta property="fc:frame:image:aspect_ratio" content="1.91:1" />
           <meta property="fc:frame:input:text" content="Enter a message" />
           <meta property="fc:frame:button:1" content="Green" />
