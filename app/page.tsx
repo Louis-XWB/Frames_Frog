@@ -20,7 +20,6 @@ export default function Home() {
           <meta property="fc:frame" content="vNext" />
           <meta property="fc:frame:image" content="${frameImage}" />
           <meta property="fc:frame:image:aspect_ratio" content="1.91:1" />
-          <meta property="fc:frame:post_url" content="${framePostUrl}" />
           <meta property="fc:frame:input:text" content="Enter a message" />
           <meta property="fc:frame:button:1" content="Green" />
           <meta property="fc:frame:button:2" content="Purple" />
